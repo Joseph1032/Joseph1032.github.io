@@ -1,0 +1,98 @@
+body {
+	flex-wrap: wrap;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+body, html {
+	height:100%;
+	margin:0;
+}
+#parallax { 
+    background-image: url("./assets/street.jpg");
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4%;
+}
+#quote {
+	font-size: 55px;
+	color:white;
+}
+#photographer {
+	height:200px;
+	width:200px;
+	border-radius: 180px;
+	border:5px solid white;
+}
+#about {
+	color:white;
+	font-size: 25px;
+}
+#lorem {
+	background-color: #d7dcdf;
+	height:auto;
+}
+#gallery {
+	color:white;
+	text-decoration: underline;
+	text-decoration-color: rgb(203,154,79);
+}
+a {
+	color:rgb(203,154,79);
+}
+.thumbnail {
+	margin-left: 0px;
+	margin-top: 5px;
+	width:105%;
+}
+.thumbnail > img {
+    height: 300px;
+    width: 100%;
+}
+.thumbnail:hover {
+	opacity:0.7;
+}
+#secondParallax {
+	background-image: url("./assets/rain.jpg");
+	height:500px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4%;
+}
+.nature {
+	width:280px;
+}
+#girl {
+	margin-left: 4%;
+}
+#quoteEnd {
+	font-size: 35px;
+	color:white;
+	margin-top: 2%;
+}
+#contact {
+	font-size: 35px;
+	color:white;
+}
+#fontawesome {
+	height:53%;
+}
+i {
+	margin-right: 1%;
+}
+#facebook {
+	color:rgb(59,89,152);
+}
+#github {
+	color:black;
+}
+#linkedin {
+	color:rgb(0,119,181);
+}
+#facebook:hover, #github:hover, #linkedin:hover {
+	color:rgb(35,82,124);
+}
