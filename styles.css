@@ -41,9 +41,11 @@ body, html {
 }
 a {
 	color:rgb(203,154,79);
+	height:50px;
+	font-size: 20px;
 }
 .thumbnail {
-	margin-left: 0px;
+	margin-left: -10px;
 	margin-top: 5px;
 	width:105%;
 }
@@ -56,7 +58,7 @@ a {
 }
 #secondParallax {
 	background-image: url("./assets/rain.jpg");
-	height:500px;
+	height:auto;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +66,7 @@ a {
     padding: 4%;
 }
 .nature {
-	width:280px;
+	width:110%;
 }
 #girl {
 	margin-left: 4%;
