@@ -1,3 +1,8 @@
+@media only screen and (max-width: 500px) {
+    #lorem {
+        background-color: lightblue;
+	}
+}
 body {
 	flex-wrap: wrap;
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -45,7 +50,7 @@ a {
 	font-size: 20px;
 }
 .thumbnail {
-	margin-left: -10px;
+	/*margin-left: -10px;*/
 	margin-top: 5px;
 	width:105%;
 }
@@ -66,10 +71,7 @@ a {
     padding: 4%;
 }
 .nature {
-	width:110%;
-}
-#girl {
-	margin-left: 4%;
+	width:100%;
 }
 #quoteEnd {
 	font-size: 35px;
